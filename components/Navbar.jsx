@@ -9,9 +9,15 @@ const Navbar = () => {
 
   return (
     <div className='navbar-container'>
-      <p className='logo'>
-        <Link href="/">Antiques and Collectibles</Link>
-      </p>
+      <Link href="/">
+        <img className='logo'></img>
+      </Link>
+      <Link href='/'>Home</Link>
+      <Link href='/productlist'>Product List</Link>
+      <Link href='/aboutus'>About</Link>
+      <Link href='/ContactForm'>Contact</Link>
+      <Link href='/login'>Login</Link>
+      {/* <Link href='/account'>Account</Link> */}
 
       <button type='button' className='cart-icon' onClick={() =>setShowCart(true)}>
           <AiOutlineShopping/>

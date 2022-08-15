@@ -27,6 +27,7 @@ const Cart = () => {
       const data= await response.json();
       
       // toast.loading('Redirecting...');
+      console.log("data:",data);
       stripe.redirectToCheckout({ sessionId: data.id});
   }
 
@@ -50,8 +51,7 @@ const Cart = () => {
               <button
                 type="button"
                 onClick={() => setShowCart(false)}
-                className="btn"
-              >
+                className="btn">
                 Continue Shopping
               </button>
             </Link>
