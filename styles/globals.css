@@ -7,6 +7,15 @@ body, * {
   box-sizing: border-box;
 
 }
+
+p{
+  font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -25,10 +34,32 @@ font-size: 1.5em;
   justify-content: space-around
 
 }
-a {
-  color: inherit;
+
+/* #nav{
+ 
+  font-size: 1.8em;
+  padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    
+    width: 100%;
+
+} */
+
+.navbar-container a{
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6em;
 }
+
+.navbar-container a:hover{
+  color: darkgray;
+}
+/* #nav a{
+  text-decoration: none;
+} */
 
 .main-container{
 max-width: 1400px; 
@@ -42,10 +73,17 @@ width: 100%;
 
 .navbar-container{
   display: flex;
-  justify-content: space-between;
-  margin: 6px 18px;
-  position: relative;
+    justify-content: space-between;
+    background-color: black;
+    margin: 6px 54px;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+    padding-right: 10px;
+    align-items: center;
 }
+
 .marquee-text{
   font-size: 29px;
   font-weight: 600;
@@ -84,8 +122,18 @@ width: 100%;
   background-repeat: no-repeat;
   height: 120px;
   border-style: none;
+  border-radius: 100%;
   margin-left: 3%;
   width: 120px;
+}
+
+.yagna{
+  background-image: url(/image/yagna.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-size: 100px 100px;
+  width: 120px;
+  margin-left: 3%;
 }
 
 
@@ -95,12 +143,14 @@ width: 100%;
 
 .cart-icon{
   font-size: 25px;
-  color: gray;
+  color: white;
+  margin-top: -11px;
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  font-size: 34px;
 }
 .cart-icon:hover{
   transform: scale(1.1,1.1);
@@ -145,11 +195,13 @@ width: 100%;
 
 .product-name{
   font-weight: 500;
+  font-size: 1.2em;
 }
 .product-price{
   font-weight: 800;
   margin-top: 6px;
   color: black;
+  font-size: 1.5em;
 }
 
 .hero-banner-container{
@@ -162,8 +214,10 @@ width: 100%;
   width: 100%;
 
 }
+
+
 .hero-banner-container .beats-solo{
-  font-size: 20px;
+  font-size: 24px;
 }
 .hero-banner-container button{
    border-radius: 15px;
@@ -177,6 +231,11 @@ width: 100%;
   cursor: pointer;
   z-index:10000 !important;
 }
+
+/* #signin{
+  position: relative;
+  margin-left: 50%;
+} */
 
 .hero-banner-container h3{
   font-size: 4rem;
@@ -241,11 +300,11 @@ text-align: end;
   background-color: #2c7b72;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 322px;
   line-height: 1; 
   color: white;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 .banner-desc{
   display: flex ;
@@ -312,22 +371,27 @@ text-align: end;
 }
 
 .footer-container{
-  color: #324d67;
+  color: black;
   text-align: center;
-  margin-top: 20px;
-  padding: 30px 10px;
+  margin-top: -0px;
+  padding: 8px 10px;
+  padding-top: 15px;
   font-weight: 700;
+  font-size: 1.6em;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin: 7px 53px;
+  border-radius: 16px;
   justify-content: center;
 
 }
 .footer-container .icons{
-  font-size: 30px;
+  font-size: 45px;
   display: flex;
-  gap: 10px;
+  gap: 13px;
+ margin-top: -20px;
 }
  .cart-heading{
   display: flex;
@@ -421,35 +485,17 @@ padding: 30px 65px;
   margin: auto;
 }
 .btn{
-  width: 100%;
-  max-width: 400px;
-  padding: 10px 12px;
-  border-radius: 15px;
-  border: none;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-top: 40px;
-  text-transform: uppercase;
-  background-color: #2dc2f0;
-  color: #2db2f0;
-  cursor: pointer;
-  transform: scale(1, 1);
-  transition: transform 0.5s ease;
-}
-#btn{
-  width: 100%;
-  max-width: 400px;
-  padding: 10px 12px;
-  border-radius: 15px;
-  border: none;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-top: 40px;
-  text-transform: uppercase;
-  background-color: #2dc2f0;
+  width: 200px;
+
+  padding: 10px 20px;
+  background-color: #f02d34;
   color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
   cursor: pointer;
-  transform: scale(1, 1);
+   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 .btn:hover{
@@ -466,7 +512,7 @@ padding: 30px 65px;
 
 .product-detail-image{
   border-radius: 15px;
-   /* background-color: #ebebeb; */
+   background-color: #ebebeb;
 
   width: 400px;
   height: 400px;
@@ -474,7 +520,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: black;
+  background-color: #f02d34;
 
 }
 .small-images-container{
@@ -491,10 +537,10 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:black;
+  background-color:#f02d34;
 }
 .reviews{
-  color: black;
+  color: #f02d34;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -515,7 +561,7 @@ padding: 30px 65px;
   font-weight: 700 ;
   font-size: 26px;
   margin-top: 30px;
-  color:green;
+  color:#f02d34;
 }
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
@@ -533,12 +579,12 @@ padding: 30px 65px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
-  border: 1px solid #2db2f0 ;
+  border: 1px solid #f02d34 ;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #2db2f0;
+  color: #f02d34;
   cursor: pointer;
   width: 200px;
    transform: scale(1, 1);
@@ -551,7 +597,7 @@ padding: 30px 65px;
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #2db2f0;
+  background-color: #f02d34;
   color: white;
   border: none;
   margin-top: 40px;
@@ -575,7 +621,7 @@ padding: 6px;
 }
 .quantity-desc .minus{
   border-right: 1px solid gray;
-  color: #2db2f0;
+  color: #f02d34;
 }
 .quantity-desc .num{
   border-right: 1px solid gray;
@@ -611,6 +657,22 @@ padding: 6px;
   min-height: 60vh;
 
 }
+
+.buy-now-cart{
+  width: 490px;
+
+  padding: 10px 20px;
+  background-color: #f02d34;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+   transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
 .success, .cancel{
   width: 1000px;
 margin: auto;
@@ -670,7 +732,7 @@ margin-top: 160px;
     right: -6%;
   }
   .footer-banner-container{
-    height: 560px;
+    height: 322px;
     margin-top: 80px;
   }
   .footer-banner-image{
@@ -877,3 +939,123 @@ body {
           text-transform: capitalize;
           cursor: pointer;
         } 
+        
+@media only screen and (max-width:768px) {
+  
+  .navbar-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    justify-content: left;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-left: 0;
+    height: 375px;
+  }
+  
+  .cart-icon{
+  font-size: 25px;
+  color: white;
+  margin-top: 3%;
+  margin-left: 85%;
+  cursor: pointer;
+  position: absolute;
+  transition: transform .4s ease;
+  border: none;
+  background-color: transparent;
+  font-size: 34px;
+  }
+
+  .hero-banner-container{
+    padding: 10px 40px;
+    background-color: #dcdcdc;
+    border-radius: 15px;
+    position: relative;
+    height: 500px;
+    text-align: center;
+    line-height: 0.9; 
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  #collect{
+    position: relative;
+    margin-right: 10%;
+  }
+  .hero-banner-image{
+    position: absolute;
+    top: 36%;
+    right:17%;
+    border-radius: 18px;
+    border: black solid 3px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .footer-banner-container{
+    padding: 40px 40px;
+    background-color: #2c7b72;
+    border-radius: 15px;
+    position: relative;
+    height: 370px;
+    line-height: 1; 
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .footer-container{
+    color: black;
+    text-align: center;
+    margin-top: -0px;
+    padding: 8px 10px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 7px 0px;
+    border-radius: 16px;
+    justify-content: center;
+  
+  }
+
+  .buy-now-cart{
+    width: 370px;
+  }
+  
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+
+  .navbar-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+      padding-left: 0px;
+    font-size: 1.5em;
+    padding-left: 0;
+    justify-content: left;
+  }
+
+  .hero-banner-image{
+    position: absolute;
+    top: 5%;
+    right:10%;
+    border-radius: 18px;
+    border: black solid 3px;
+    width: 200px;
+    height: 200px;
+  }
+  
+}
