@@ -97,7 +97,7 @@ const Cart = () => {
               <h3>${totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
+              <button type="button" id="btn" className="btn" onClick={handleCheckout}>
                 Pay Now
               </button>
             </div>
