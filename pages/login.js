@@ -11,6 +11,7 @@ const login = () =>{
             <div>
                 <p>Welcome, {session.user.name}</p>
                 <img src={session.user.image} alt=""/>
+                <p>{session.user.email}</p>
                 <button onClick={()=> signOut()}>Sign Out</button>
             </div>
         )
