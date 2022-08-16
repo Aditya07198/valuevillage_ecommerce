@@ -430,10 +430,26 @@ padding: 30px 65px;
   margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
-  background-color: #f02d34;
-  color: #fff;
+  background-color: #2dc2f0;
+  color: #2db2f0;
   cursor: pointer;
-    transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+#btn{
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #2dc2f0;
+  color: white;
+  cursor: pointer;
+  transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 .btn:hover{
@@ -450,7 +466,7 @@ padding: 30px 65px;
 
 .product-detail-image{
   border-radius: 15px;
-   background-color: #ebebeb;
+   /* background-color: #ebebeb; */
 
   width: 400px;
   height: 400px;
@@ -458,7 +474,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  background-color: black;
 
 }
 .small-images-container{
@@ -475,10 +491,10 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  background-color:black;
 }
 .reviews{
-  color: #f02d34;
+  color: black;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -499,7 +515,7 @@ padding: 30px 65px;
   font-weight: 700 ;
   font-size: 26px;
   margin-top: 30px;
-  color:#f02d34;
+  color:green;
 }
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
@@ -517,12 +533,12 @@ padding: 30px 65px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
-  border: 1px solid #f02d34 ;
+  border: 1px solid #2db2f0 ;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #f02d34;
+  color: #2db2f0;
   cursor: pointer;
   width: 200px;
    transform: scale(1, 1);
@@ -535,7 +551,7 @@ padding: 30px 65px;
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #f02d34;
+  background-color: #2db2f0;
   color: white;
   border: none;
   margin-top: 40px;
@@ -559,7 +575,7 @@ padding: 6px;
 }
 .quantity-desc .minus{
   border-right: 1px solid gray;
-  color: #f02d34;
+  color: #2db2f0;
 }
 .quantity-desc .num{
   border-right: 1px solid gray;
