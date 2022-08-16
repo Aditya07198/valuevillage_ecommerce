@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -25,9 +25,9 @@
     "next-auth": "^4.10.3",
     "nodemailer": "^6.7.7",
     "notistack": "^2.0.5",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.34.0",
     "react-icons": "^4.4.0",
     "react-toast": "^1.0.3",
@@ -35,8 +35,27 @@
     "util": "^0.12.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
     "@babel/preset-react": "^7.18.6",
+    "babel-eslint": "^10.1.0",
     "eslint": "8.19.0",
-    "eslint-config-next": "^0.2.4"
-  }
+    "eslint-config-next": "^0.2.4",
+    "webpack": "^5.74.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rutvij0709/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rutvij0709/ecommerce/issues"
+  },
+  "homepage": "https://github.com/Rutvij0709/ecommerce#readme"
 }
