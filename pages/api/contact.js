@@ -12,7 +12,7 @@ export default async (req, res) => {
     secure: true,
     auth: {
       user: 'pdrvdhruv0055@gmail.com',
-      pass:'jafbybisvrafpkdy',
+      pass:'poqtbuiwzirjhwzf',
     },
   });
 
