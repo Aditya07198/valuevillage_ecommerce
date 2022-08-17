@@ -96,8 +96,8 @@ const Cart = () => {
               <h3>Subtotal:</h3>
               <h3>${totalPrice}</h3>
             </div>
-            <div className="btn-container">
-              <button type="button" id="btn" className="btn" onClick={handleCheckout}>
+            <div className="buttons">
+              <button type="button" className="buy-now-cart" onClick={handleCheckout}>
                 Pay Now
               </button>
             </div>

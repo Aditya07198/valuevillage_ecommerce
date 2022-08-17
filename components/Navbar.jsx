@@ -12,11 +12,13 @@ const Navbar = () => {
       <Link href="/">
         <img className='logo'></img>
       </Link>
-      <Link href='/'>Home</Link>
-      <Link href='/productlist'>Product List</Link>
-      <Link href='/aboutus'>About</Link>
-      <Link href='/ContactForm'>Contact</Link>
-      <Link href='/login'>Login</Link>
+      <div className='navbar'>
+        <Link href='/'>Home</Link>
+        <Link href='/productlist'>Product List</Link>
+        <Link href='/aboutus'>About</Link>
+        <Link href='/ContactForm'>Contact</Link>
+        <Link href='/login'>Login</Link>
+      
       {/* <Link href='/account'>Account</Link> */}
 
       <button type='button' className='cart-icon' onClick={() =>setShowCart(true)}>
@@ -24,6 +26,7 @@ const Navbar = () => {
           <span className='cart-item-qty'>{totalQuantities}</span>
       </button>
       {showCart && <Cart/>}
+      </div>
     </div>
   )
 }
