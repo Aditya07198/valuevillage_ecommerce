@@ -31,4 +31,5 @@ input{
 @media screen and (max-width: 992px) {
     .form{
         display: block;
+    }
 }
