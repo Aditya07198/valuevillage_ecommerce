@@ -39,7 +39,6 @@ console.log("errors",errors)
           
           onSubmit={handleSubmit(onSubmitForm)}
           className="mx-auto  shadow p-3 yy"
-          style={{ width: "60%" }}
           >
           <div className="pb-2 d-flex justify-content-between "   >
             <label style={{ width:"30%" }} for="name" >

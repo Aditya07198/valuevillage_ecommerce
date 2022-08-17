@@ -19,9 +19,11 @@ const login = () =>{
     else
     {
         return(
-            <div>
+            <div className=''>
                 <p>You are not signed in</p>
-                <button onClick={()=> signIn()}>Sign in</button>
+                <div className='buttons'>
+                    <button type='button' className='buy-now' onClick={()=> signIn()}>Sign in</button>
+                </div>
             </div>
         )
     }
