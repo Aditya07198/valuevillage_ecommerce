@@ -39,22 +39,14 @@ console.log("errors",errors)
           
           onSubmit={handleSubmit(onSubmitForm)}
           className="mx-auto  shadow p-3 yy"
-          >
-//           <div className="pb-2 d-flex justify-content-between "   >
+          >        
              <div className="form-group">
-//             <label style={{ width:"30%" }} for="name" >
-//               Full name:-
-//             </label>
             
             <input {...register('name', { required: 'Full Name is required' , maxLength: 30 })} placeholder="Enter your Name"/>
             </div>
           <span className="text-red-400 text-sm py-2" style={{ color:"red" }} >
               {errors?.name?.message}
             </span>
-//           <div className="pb-2 d-flex justify-content-between "   >
-//             <label style={{ width:"30%" }} for="email" >
-//               Email:-
-//             </label>
             <div className="form-group">
               <input {...register('email',{ required: 'You must enter your valid Email address',pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i})} placeholder="Enter your Email" />
             </div>
@@ -62,10 +54,6 @@ console.log("errors",errors)
           <span className="text-red-400 text-sm py-2" style={{ color:"red" }} >
               {errors?.email?.message}
             </span>
-//           <div className="pb-2 d-flex justify-content-between "   >
-//             <label style={{ width:"30%" }} for="phone" >
-//               Phone:-
-//             </label>
             <div className="form-group">
               <input {...register('phone',{ required: 'Phone number is required'})} placeholder="Enter your Phone Number"/>
             </div>
@@ -73,10 +61,6 @@ console.log("errors",errors)
           <span className="text-red-400 text-sm py-2" style={{ color:"red" }} >
             {errors?.phone?.message}
             </span>
-//           <div className="pb-2 d-flex justify-content-between "  >
-//             <label style={{ width:"30%" }} for="message" >
-//               Message:-
-//             </label>
             
           <div style={{ width: "70%" }}  >
           <div className="form-group">
