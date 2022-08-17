@@ -62,9 +62,9 @@ console.log("errors",errors)
             {errors?.phone?.message}
             </span>
             
-          <div style={{ width: "70%" }}  >
+          <div>
           <div className="form-group-c">
-            <textarea {...register('message',{ required: 'Message is required', minLength:10})} placeholder="Message type here" />
+            <input {...register('message',{ required: 'Message is required', minLength:10})} placeholder="Message type here" />
           </div>
 
 </div>
