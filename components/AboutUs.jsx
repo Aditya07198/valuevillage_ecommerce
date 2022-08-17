@@ -22,8 +22,8 @@ const about=()=>{
             <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
          </div>
          <h2>Yagna</h2>
-         <h4>Web Designer</h4>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <h4>Product Manager</h4>
+         <p>Handles and sees off the different items and evaluates the stock based on the orders received.</p>
       </div>
           
           
@@ -33,8 +33,10 @@ const about=()=>{
          <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
          </div>
          <h2>Aditya</h2>
-         <h4>Backend Developer</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <h4>Marketer and Branding</h4>
+          <p>Who understands and is focused on the e-commerce funnel. The marketer’s overarching goal is to get traffic to your site, and once there, 
+        allow the efforts described (merchandising, branding, etc) to work their magic. Has the wise ability to price products that are both competitive and begins to 
+        build customer loyalty.</p>
       </div>
           
           
@@ -44,8 +46,8 @@ const about=()=>{
          <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
          </div>
          <h2>Rutvij</h2>
-         <h4>Team Leader</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <h4>Technical Manager</h4>
+          <p>Having an excellent knowledge in development skills and hence handles the complete payment pathway and monitors the traffic with providing authenticate security .</p>
       </div>
           
           
@@ -55,8 +57,8 @@ const about=()=>{
         <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
          </div>
          <h2>Dhruv</h2>
-         <h4>Backend Developer</h4>
-          <p>Lorem ipsum dolor sit amet,  adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <h4>Represnter</h4>
+          <p>Handles meetings and auction appointments with the customers providing the customer service at its best.</p>
       </div>
           
           
