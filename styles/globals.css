@@ -155,7 +155,8 @@ margin-top: 80px;
 .navbar-container{
   display: flex;
     justify-content: space-between;
-    background-color: #e0af4c;
+    background-color: #0F3D3E
+    ;
     box-shadow: 2px 3px 10px #382213;
     margin: 6px 54px;
     position: relative;
@@ -204,7 +205,12 @@ margin-top: 80px;
 }
 
 
-
+.login{
+  margin: auto;
+  width: 50%;
+  padding-left:15% ;
+  
+}
 
  span.text-red {
     -webkit-text-stroke: 1px #2c7b72;
@@ -301,12 +307,13 @@ margin-top: 80px;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
-  border-radius: 15px;
-  position: relative;
-  height: 500px;
-  line-height: 0.9; 
-  width: 100%;
+    background-color: #E2DCC8;
+    border-radius: 15px;
+    position: relative;
+    height: 500px;
+    line-height: 0.9;
+    width: 100%;
+    margin-top: -38px;
 
 }
 
@@ -392,7 +399,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 40px 40px;
-  background-color: #2c7b72;
+  background-color: #0F3D3E;
   border-radius: 15px;
   position: relative;
   height: 322px;
@@ -466,7 +473,7 @@ text-align: end;
 }
 
 .footer-container{
-  color: #382213;
+  color: #0F3D3E;
   text-align: center;
   margin-top: -0px;
   padding: 8px 10px;
