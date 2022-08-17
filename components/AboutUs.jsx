@@ -18,8 +18,8 @@ const about=()=>{
       <hr></hr>
           
       <div  class="card">
-         <div class="circle-container">
-            <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
+         <div class="circle-container-c">
+            <img src="https://raw.githubusercontent.com/Aditya07198/valuevillage_ecommerce/main/image/yagna.jpeg" width="300" height="225"></img>
          </div>
          <h2>Yagna</h2>
          <h4>Product Manager</h4>
@@ -32,8 +32,8 @@ const about=()=>{
           
           
       <div class="card">
-         <div class="circle-container">
-         <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
+         <div class="circle-container-c">
+         <img src="https://raw.githubusercontent.com/Aditya07198/valuevillage_ecommerce/main/image/aditya.jpg"></img>
          </div>
          <h2>Aditya</h2>
          <h4>Marketer and Branding</h4>
@@ -45,8 +45,8 @@ const about=()=>{
           
           
       <div class="card">
-         <div class="circle-container">
-         <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
+         <div class="circle-container-c">
+         <img src="https://raw.githubusercontent.com/Aditya07198/valuevillage_ecommerce/main/image/rutvij.jpeg"></img>
          </div>
          <h2>Rutvij</h2>
          <h4>Technical Manager</h4>
@@ -56,12 +56,12 @@ const about=()=>{
           
           
       <div class="card">
-        <div class="circle-container">
-        <img src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"></img>
+        <div class="circle-container-c">
+        <img src="https://raw.githubusercontent.com/Aditya07198/valuevillage_ecommerce/main/image/dhruv.jpg"></img>
          </div>
          <h2>Dhruv</h2>
          <h4>Represnter</h4>
-          <p>Handels our own auctions and appointments, get new auction house. Send the newsletter to our customers and advertisement about our auctions. Handels new client and build relation.  </p>
+          <p>Handels our own auctions and appointments, get new auction house. Send the newsletter to our customers and advertisement about our auctions.</p>
       </div>
           
           
