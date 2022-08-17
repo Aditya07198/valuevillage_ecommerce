@@ -37,9 +37,12 @@ console.log("errors",errors)
     
     <div className="py-16 bg-gray-50 px-4 sm:px-6 flex justify-center items-center y">
       <div className="mx-auto w-full rounded-xl bg-white p-8  ">
-        <form
-          
-          onSubmit={handleSubmit(onSubmitForm)}>        
+
+        <div className='head-contact'>
+          <h2>Contact Us</h2>
+          <p>Send us a message for any concern.<br></br> To find details about the auction. Regarding any antique items you are looking to buy.</p>
+        </div>
+        <form onSubmit={handleSubmit(onSubmitForm)}>        
              <div className="form-group-c">
             
             <input {...register('name', { required: 'Full Name is required' , maxLength: 30 })} placeholder="Enter your Name"/>
