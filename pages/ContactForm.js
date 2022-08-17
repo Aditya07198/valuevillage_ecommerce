@@ -40,21 +40,21 @@ console.log("errors",errors)
           onSubmit={handleSubmit(onSubmitForm)}
           className="mx-auto  shadow p-3 yy"
           >        
-             <div className="form-group">
+             <div className="form-group-c">
             
             <input {...register('name', { required: 'Full Name is required' , maxLength: 30 })} placeholder="Enter your Name"/>
             </div>
           <span className="text-red-400 text-sm py-2" style={{ color:"red" }} >
               {errors?.name?.message}
             </span>
-            <div className="form-group">
+            <div className="form-group-c">
               <input {...register('email',{ required: 'You must enter your valid Email address',pattern:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i})} placeholder="Enter your Email" />
             </div>
 
           <span className="text-red-400 text-sm py-2" style={{ color:"red" }} >
               {errors?.email?.message}
             </span>
-            <div className="form-group">
+            <div className="form-group-c">
               <input {...register('phone',{ required: 'Phone number is required'})} placeholder="Enter your Phone Number"/>
             </div>
 
@@ -63,7 +63,7 @@ console.log("errors",errors)
             </span>
             
           <div style={{ width: "70%" }}  >
-          <div className="form-group">
+          <div className="form-group-c">
             <textarea {...register('message',{ required: 'Message is required', minLength:10})} placeholder="Message type here" />
           </div>
 
