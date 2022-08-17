@@ -22,10 +22,10 @@ const FooterBanner = ({ footerBanner: {
             <p>{desc}</p>
 
           </div>
-          <img src={urlfor(image)}
+          {/* <img src={urlfor(image)}
           classname="footer-banner-image" 
           height={200}
-          width={200}></img>
+          width={200}></img> */}
         </div>    
     </div>
   )
