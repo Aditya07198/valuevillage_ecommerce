@@ -56,7 +56,7 @@ const about=()=>{
          </div>
          <h2>Dhruv</h2>
          <h4>Backend Developer</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet,  adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
           
           
