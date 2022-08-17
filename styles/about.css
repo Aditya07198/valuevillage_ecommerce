@@ -101,9 +101,9 @@ main{
     color:#fff;
  }
  .circle-container img{
-    position:absolute;
-    top:50%;
-    left:50%;
+    position:relative;
+    top:33%;
+    left:32%;
     transform:translate(-50%,-50%);
     margin:0;
  }
@@ -117,7 +117,7 @@ main{
     margin:10px 0 0 0;
  }
  .team .card p{
-    width:250px;
+    width:80%;
     margin:30px auto;
     text-align:center;
  
@@ -165,7 +165,7 @@ main{
     width:100%; 
  }
     .team .card{ 
-    width:40%;
+    width:80%;
  }   
  }
  

@@ -757,7 +757,7 @@ padding: 6px;
 .success-wrapper, .cancel-wrapper{
   background-color: white;
   min-height: 60vh;
-
+  padding-bottom: 40px;
 }
 
 .buy-now-cart{
@@ -1093,17 +1093,32 @@ figcaption {
   cursor: pointer;
 }
 
+
         
 @media only screen and (max-width:768px) {
-  
+
+ .circle-container{
+    left: -13px;
+  }
 
   .navbar{
     display: flex;
     flex-direction: column;
     margin-top: 0%;
   }
+
+  .product-card {
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+    color: #324d67;
+    width: 400px;
+}
   
   .navbar a{
+    margin-left: 14px;
     padding-left: 0px;
     padding-top: 11%;
   }
@@ -1125,8 +1140,8 @@ figcaption {
   .cart-icon{
   font-size: 25px;
   color: white;
-  margin-top: -100%;
-  margin-left: 350%;
+  margin-top: -90%;
+  margin-left: 200%;
   cursor: pointer;
   position: absolute;
   transition: transform .4s ease;
@@ -1134,8 +1149,19 @@ figcaption {
   background-color: transparent;
   font-size: 34px;
   }
+  .products-heading{
+    margin-left: 25px;
+    margin-right: -25px;
+  }
+
+  .products-container{
+    margin-left: 25px;
+    margin-right: -25px;
+  }
 
   .hero-banner-container{
+    margin-left: 25px;
+    margin-right: -25px;
     padding: 10px 40px;
     background-color: #dcdcdc;
     border-radius: 15px;
@@ -1154,11 +1180,21 @@ figcaption {
   .hero-banner-image{
     position: absolute;
     top: 36%;
-    right:17%;
+    right:10%;
     border-radius: 18px;
     border: black solid 3px;
     width: 300px;
     height: 300px;
+  }
+
+  .login{
+    margin-top: -25px;
+    padding-bottom: 40px;
+  }
+
+  .success{
+    margin-left: 25px;
+    margin-right: -25px;
   }
   
   .footer-banner-container{
@@ -1172,6 +1208,22 @@ figcaption {
     width: 100%;
     margin-top: 20px;
   }
+  
+  footer{
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+
+  .service{
+    padding-left: 20px;
+    margin-left: 25px;
+    margin-right: -25px;
+  }
+
+  header{
+    margin-left: 25px;
+    margin-right: -25px;
+  }
 
   .footer-container{
     color: black;
@@ -1181,6 +1233,7 @@ figcaption {
     padding-top: 30px;
     font-weight: 700;
     font-size: 1.6em;
+    width:380px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1238,3 +1291,4 @@ figcaption {
 
 
 /* Contact form css */
+
