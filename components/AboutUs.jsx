@@ -23,7 +23,10 @@ const about=()=>{
          </div>
          <h2>Yagna</h2>
          <h4>Product Manager</h4>
-         <p>Handles and sees off the different items and evaluates the stock based on the orders received.</p>
+         <p>Handles and sees off the different items and evaluates the stock based on the orders received.
+            Sees the market and finds teh new auctions and trace the antiques that are being sold. 
+            Get the antiques and collectibles for the customers. Looks for the items that customres are ready to pay and asked to look for the items.
+         </p>
       </div>
           
           
@@ -58,7 +61,7 @@ const about=()=>{
          </div>
          <h2>Dhruv</h2>
          <h4>Represnter</h4>
-          <p>Handles meetings and auction appointments with the customers providing the customer service at its best.</p>
+          <p>Handels our own auctions and appointments, get new auction house. Send the newsletter to our customers and advertisement about our auctions. Handels new client and build relation.  </p>
       </div>
           
           
