@@ -1093,10 +1093,10 @@ figcaption {
   cursor: pointer;
 }
 
-.login-name{
- margin-top: -20px;
+.login-name {
+    padding-bottom: 45px;
+    padding-left: 30px;
 }
-
 
         
 @media only screen and (max-width:768px) {
