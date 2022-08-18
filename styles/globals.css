@@ -1094,9 +1094,11 @@ figcaption {
 }
 
 .login-name {
-    padding-bottom: 45px;
-    padding-left: 30px;
+  margin-top: border-box;
+  padding-bottom: 45px;
+  padding-left: 30px;
 }
+
 
         
 @media only screen and (max-width:768px) {
