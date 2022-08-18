@@ -23,7 +23,7 @@ const home = ({ products, bannerData }) => {
             <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
         
         <div className='products-heading'>
-          <h2>Best Selling Product</h2>
+          <h2>New Product</h2>
           <p>New Collectible List</p>
         </div>
   
