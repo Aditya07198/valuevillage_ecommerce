@@ -10,8 +10,11 @@ const login = () =>{
         return (
             <div>
                 <p>Welcome, {session.user.name}</p>
+                <img src={session.user.image} alt=""/>
                 <p>{session.user.email}</p>
-                <button onClick={()=> signOut()}>Sign Out</button>
+                <div className='buttons'>
+                    <button type='button' className='buy-now' onClick={()=> signOut()}>Sign Out</button>
+                </div>
             </div>
         )
     }
