@@ -8,7 +8,7 @@ const login = () =>{
     console.log(session);
     if(session) {
         return (
-            <div>
+            <div className='login'>
                 <p>Welcome, {session.user.name}</p>
                 <img src={session.user.image} alt=""/>
                 <p>{session.user.email}</p>
