@@ -1093,9 +1093,18 @@ figcaption {
   cursor: pointer;
 }
 
+.login-name{
+ margin-top: -20px;
+}
+
 
         
 @media only screen and (max-width:768px) {
+
+  .login-name{
+    margin-left: 25px;
+    margin-right: -25px;
+  }
 
  .circle-container{
     left: -13px;
