@@ -17,7 +17,9 @@ const home = ({ products, bannerData }) => {
   if(session) {
     return (
         <div>
+          <div className='login-name'>
             <p>Welcome, {session.user.name}</p>
+          </div>
             <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
         
         <div className='products-heading'>
