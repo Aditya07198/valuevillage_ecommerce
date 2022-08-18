@@ -10,7 +10,6 @@ const login = () =>{
         return (
             <div className='login'>
                 <p>Welcome, {session.user.name}</p>
-                <img src={session.user.image} alt=""/>
                 <p>{session.user.email}</p>
                 <div className='buttons'>
                     <button type='button' className='buy-now' onClick={()=> signOut()}>Sign Out</button>
