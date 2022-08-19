@@ -151,12 +151,16 @@ margin-top: 80px;
 .pb-2{
   padding: 15px;
 }
+header{
+  position: fixed;
+  z-index: 2;
+  width: 98.2%;
+}
 
 .navbar-container{
   display: flex;
     justify-content: space-between;
-    background-color: #0F3D3E
-    ;
+    background-color: #0F3D3E;
     box-shadow: 2px 3px 10px #382213;
     margin: 6px 54px;
     position: relative;
@@ -313,7 +317,7 @@ margin-top: 80px;
     height: 500px;
     line-height: 0.9;
     width: 100%;
-    margin-top: -38px;
+    margin-top: 11%;
 
 }
 
@@ -1264,7 +1268,10 @@ figcaption {
     margin-top: 10%;
   }
 
-  
+
+header{
+  position: relative;
+}
   
 
 }
@@ -1286,6 +1293,14 @@ figcaption {
   .about-title, .about-content{
     flex: 1;
     margin-top: 5%;
+  }
+
+  header{
+    width: 97%;
+  }
+
+  .hero-banner-container{
+    margin-top: 23%;
   }
 
   .hero-banner-image{
